@@ -1,0 +1,35 @@
+body {
+    background-image: url("pictures/bG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    color: white;
+    background-color: #6e0a0a;
+    box-shadow: 0 2px 2px -4px rgba(0, 0, 0, 0.4);
+}
+
+.nav-link {
+    color: white;
+}
+
+.main_image {
+    max-width: 5vw;
+}
+
+.head_section {
+    background-color: rgba(237, 221, 221, 0.7);
+}
+
+.carousel-inner img {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    min-width: 95%;
+    max-height: 40%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
